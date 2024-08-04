@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(264deg, orange, #000000, #ffee00);
+    background-size: 600% 600%;
+
+    animation: AnimationName 57s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 43%}
+    50%{background-position:100% 58%}
+    100%{background-position:0% 43%}
+}
+r{
+background-color: white;
+border-radius: 50px;
+}
+r:hover{
+    background-color: white;
+    box-shadow: 2px 2px red;
+    transition: 500ms;
+}
