@@ -1,21 +1,64 @@
-body{
-    background: linear-gradient(264deg, orange, #000000, #ffee00);
-    background-size: 600% 600%;
-
-    animation: AnimationName 57s ease infinite;
+/* Reset básico de margens e paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
 
-@keyframes AnimationName {
-    0%{background-position:0% 43%}
-    50%{background-position:100% 58%}
-    100%{background-position:0% 43%}
+/* Layout básico */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
 }
-r{
-background-color: white;
-border-radius: 50px;
+
+header, nav, main, footer {
+    padding: 1em;
 }
-r:hover{
-    background-color: white;
-    box-shadow: 2px 2px red;
-    transition: 500ms;
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Layout Responsivo */
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    /* Estilos para telas médias (tablets) */
+}
+
+@media (max-width: 480px) {
+    /* Estilos para telas pequenas (smartphones) */
 }
