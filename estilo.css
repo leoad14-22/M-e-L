@@ -10,21 +10,22 @@ h1{
  text-align: center;
  font-size: 70px;
  animation-name: leo;
- animation: leo 25s infinite;
+ animation: leo 7s infinite;
 
 }
 @keyframes leo{
 	0% {
-		text-shadow: 2px 3px #ff8800;
+		text-shadow: 2px 3px #ffd000;
 	}
 	50% {
-		text-shadow: 2px 3px rgb(255, 166, 0);
+		text-shadow: 2px 3px rgb(255, 72, 0);
 	}
 	100% {
-		text-shadow: 2px 3px rgb(255, 196, 0);
+		text-shadow: 2px 3px rgb(255, 208, 0);
 	}
 }
 a{
+	text-decoration: none;
 	position: relative;
     font-size: 60px;
 	left: 360px;
