@@ -5,17 +5,17 @@ body {
 	height: 100vh;
 }
 h1{
- background-color: white;
+ 
  border-radius: 50px;
  position: relative;
  text-align: center;
  text-shadow: 2px 1px #23a6d5;
  font-size: 70px;
- left: 780px;
+
 }
 a{
 	position: relative;
-	left: 1180px;
+
 }
 button:hover{
 	box-shadow: 1px 2px green;
